@@ -6,23 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>San Diego Zoo</title>
   </head>
+
   <body>
-    <head>
+    <header>
       <h1>San Diego Zoo</h1>
-      <menu>
+      <nav>
         <li><a href="./Home.html">Home</a></li>
         <li><a href="./Animals.html">Animals</a></li>
         <li><a href="./Adventures.html">Adventures</a></li>
         <li><a href="./About-us.html">About us</a></li>
-      </menu>
-      <main>
-        <!-- Put the contents here -->
-      </main>
-      <hr />
-      <footer>
-        <img src="./Images/sdwa-logo.png" alt="San Diego Wildlife Alliance" />
-        <small>2022 San Diego Zoo Wildlife Alliance</small>
-      </footer>
-    </head>
+      </nav>
+    </header>
+    <main>
+      <section><img src="Images/giraffe.jpg" alt="giraffe" /></section>
+      <article>
+        <h2>Contact Us</h2>
+        <form>
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" name="firstname" required />
+          <br />
+          <label for="lastname">Last Name:</label>
+          <input type="text" id="lastname" name="lastname" required />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="country">Country:</label>
+          <input type="text" id="country" name="country" required />
+          <br />
+          <label for="message">Message:</label><br />
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </article>
+    </main>
+    <hr />
+    <footer>
+      <img src="./Images/sdwa-logo.png" alt="San Diego Wildlife Alliance" />
+      <small>2022 San Diego Zoo Wildlife Alliance</small>
+    </footer>
   </body>
 </html>
